@@ -496,6 +496,12 @@ protected function AddPlayerDetails(HTTP.Message Request)
 
     for (i = 0; i < Players.Length; i++)
     {
+        // Instance has been created, but not filled with actual data (rare)
+        if (Players[i].GetLastTeam() == -1)
+        {
+            // Skip the player
+            continue;
+        }
         // Player ID
         self.AddRequestItem(Request, i, "", eRootKey.RK_PLAYERS, i, ePlayerKey.PK_ID);
         // IP address
