@@ -71,7 +71,7 @@ env.server = {
 }
 
 env.dist = {
-    'version': '1.0.0',
+    'version': '1.0.1',  # also change version in Extension, README, CHANGES
     'extra': (
         env.paths['here'].child('LICENSE'),
         env.paths['here'].child('README.html'),

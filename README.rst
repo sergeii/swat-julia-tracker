@@ -1,7 +1,7 @@
 swat-julia-tracker
 %%%%%%%%%%%%%%%%%%
 
-:Version:           1.0.0
+:Version:           1.0.1
 :Home page:         https://github.com/sergeii/swat-julia-tracker
 :Author:            Sergei Khoroshilov <kh.sergei@gmail.com>
 :License:           The MIT License (http://opensource.org/licenses/MIT)
