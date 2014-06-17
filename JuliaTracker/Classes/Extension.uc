@@ -794,7 +794,7 @@ event Destroyed()
 defaultproperties
 {
     Title="Julia/Tracker";
-    Version="1.1.0";
+    Version="1.2.0";
     LocaleClass=class'Locale';
 
     Attempts=3;
