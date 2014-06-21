@@ -151,6 +151,10 @@ The ``[JuliaTracker.Extension]`` section of ``Swat4DedicatedServer.ini`` accepts
        With this option set to ``False`` the querystring above would be sent as ``foo.bar=ham&foo.spam=eggs`` using a dot character to delimit keys.
      - True/False
      - False
+   * - Attempts
+     - Max number of acceptable failed attempts per HTTP request before the request is dropped.
+     - Positive integer
+     - 3
 
 
 See Also
