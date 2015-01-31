@@ -1,3 +1,8 @@
+1.2.1 (2015-31-01)
+
+* Fixed a number of minor bugs.
+
+
 1.2.0 (2014-17-06)
 
 * Compiled binaries are now shipped with proper documentation.

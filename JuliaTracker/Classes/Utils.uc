@@ -62,7 +62,13 @@ static function string ComputeHash(coerce string Key, coerce string Port, coerce
  */
 static function string EncodeString(coerce string String, array<string> Array)
 {
-    return string(class'Utils.ArrayUtils'.static.Search(Array, String, true));
+    local int i;
+    i = class'Utils.ArrayUtils'.static.Search(Array, String, true);
+    if (i == -1)
+    {
+        log(self $ ": failed to decode \"" $ String $ "\"");
+    }
+    return string(i);
 }
 
 /**
