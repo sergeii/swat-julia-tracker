@@ -640,6 +640,7 @@ protected function AddPlayerDetails(HTTP.Message Request)
 
         // Player weapons
         Weapons = Players[i].GetWeapons();
+        k = 0;
 
         for (j = 0; j < Weapons.Length; j++)
         {
